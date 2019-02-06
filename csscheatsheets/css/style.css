@@ -1,0 +1,102 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #555555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6rem;
+    /* font: normal 1.6rem Arial, Helvetica, sans-serif; same as above */
+    line-height: 2.56rem;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+a:hover {
+    color: #ff0000;
+}
+
+a:active {
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.box-1 {
+    background-color: #333333;
+    color: #ffffff;
+    border-right: 0.5rem solid red;
+    border-left: 0.5rem solid red;
+    border-top: 0.5rem solid red;
+    border-bottom: 0.5rem solid red;
+    /* same as above */
+    border: 0.1rem solid red;
+    border-width: 0.3rem;
+    border-bottom-width: 1rem;
+    border-top-style: dotted;
+    padding-top: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 2rem;
+    /* same as above */
+    padding: 2rem;
+    margin-top: 2rem;
+    margin: 20px 0;
+}
+
+.box-1 h1 {
+    font-family: Tahoma;
+    font-weight: 800;
+    font-style: italic;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing: 0.32rem;
+    word-spacing: 1.6rem;
+}
+
+.box-2 {
+    border: 0.3rem dotted #ccc;
+    padding: 2rem;
+    margin: 2rem 0;
+}
+
+.categories {
+    border: 0.1rem solid #ccc;
+    padding: 1rem;
+    border-radius: 1.5rem;
+}
+
+.categories h2 {
+    text-align: center;
+}
+
+.categories ul {
+    padding: 0;
+    list-style: square;
+    list-style: none;
+    padding-left: 2rem;
+}
+
+.categories li {
+    padding-bottom: 0.6rem;
+    border-bottom: dotted 1px #333;
+    list-style-image: url('../images/check.png');
+}
